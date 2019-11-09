@@ -1,0 +1,34 @@
+{
+  "name": "cadmin-web",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento condominial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaB2404/Cadmin-web.git"
+  },
+  "keywords": [
+    "Cadmin",
+    "gerenciador",
+    "condominio",
+    "sindico",
+    "condominos"
+  ],
+  "author": "Ana Beatriz Rodrigues Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaB2404/Cadmin-web/issues"
+  },
+  "homepage": "https://github.com/anaB2404/Cadmin-web#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "material-components-web": "^4.0.0",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
+}

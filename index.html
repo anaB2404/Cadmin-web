@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Cadmin</title>
+    <link rel="icon" href="assets/icons/icon_logo.png" />
+
+    <!-- Bibliotecas CSS -->
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+</head>
+    <body>        
+        <header>
+            <div class="navbar-fixed nav">
+                <nav class="color-nav z-depth-0">
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <a href="#home" class="brand-logo"><img src="assets/icons/icon_logo.png" alt="" class="iconLogo"></a>
+                            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                            <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="#home" class="btn-flat btnText">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#sobre" class="btn-flat btnText">Sobre</a>
+                                </li>
+                                <li>
+                                    <a href="#recursos" class="btn-flat btnText">Recursos</a>
+                                </li>
+                                <li>
+                                    <a href="#contato" class="btn-flat btnText">Contato</a>
+                                </li>
+                                <li>
+                                    <a href="#modalLogin" class="btn-flat btnDefault modal-trigger">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <ul class="sidenav" id="mobile-nav">
+                <li>
+                    <a href="#home" class="waves-effect waves-light">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre" class="waves-effect waves-light">Sobre</a>
+                </li>
+                <li>
+                    <a href="#recursos" class="waves-effect waves-light">Recursos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="waves-effect waves-light">Contato</a>
+                </li>
+                <li>
+                    <a href="#modalLogin" class="waves-effect waves-light btnOpenLogin modal-trigger">Login</a>
+                </li>
+            </ul>
+        </header>
+        
+        <section class="home">
+            <div class="header">
+                <div class="hero-text">
+                    <h1>CADMIN</h1>
+                    <p>Você no comando</p>
+                </div>
+            </div>            
+        </section>
+        
+
+        
+    </body>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="js/default.js"></script>
+
+</html>
